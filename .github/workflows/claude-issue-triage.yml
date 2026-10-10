@@ -44,6 +44,9 @@ jobs:
             5. Publica el diagnóstico en español con
                `gh issue comment <N> --edit-last --create-if-none --body "..."`
                (así, en ediciones se actualiza el mismo comentario en vez de duplicarlo).
+               El comentario DEBE estar en formato Markdown compatible con GitHub (GFM):
+               encabezados con `#`, **negritas**, listas con `-` o `1.`, código en línea con
+               `backticks` y bloques de código con ``` y el lenguaje (p. ej. ```js).
                Formato:
                ## 🤖 Diagnóstico automático
                **Tipo / Labels:** …
